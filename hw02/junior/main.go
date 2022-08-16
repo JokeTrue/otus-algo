@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func CountLucky6NTicket() int {
+func CountLucky6NTickets() int {
 	var count int
 
 	for a1 := 0; a1 <= 9; a1++ {
@@ -27,5 +27,5 @@ func CountLucky6NTicket() int {
 }
 
 func main() {
-	fmt.Printf("Count of 6N Lucky Tickets is %d\n", CountLucky6NTicket())
+	fmt.Printf("Count of 6N Lucky Tickets is %d\n", CountLucky6NTickets())
 }
