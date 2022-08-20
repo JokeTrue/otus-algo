@@ -1,6 +1,6 @@
-Homework #2
+Homework #3
 ---
-## Счастливые билеты
+## Степень, Числа Фибоначчи, Простые числа
 
 1. **[Junior](junior/README.md)**
 2. **[Middle](middle/README.md)**
