@@ -12,6 +12,6 @@ func main() {
 	fmt.Printf("[recursive] %dth number of Fibonacci is %d === 8\n", 6, FibonacciRecursive(6))
 	fmt.Printf("[recursive] %dth number of Fibonacci is %d === 144\n\n", 12, FibonacciRecursive(12))
 
-	fmt.Printf("PrimeCount of %d is %d === 4\n", 6, PrimeCount(10))
-	fmt.Printf("PrimeCount of %d is %d === 25\n\n", 6, PrimeCount(100))
+	fmt.Printf("PrimeCount of %d is %d === 4\n", 10, PrimeCount(10))
+	fmt.Printf("PrimeCount of %d is %d === 25\n\n", 100, PrimeCount(100))
 }
