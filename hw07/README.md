@@ -1,6 +1,6 @@
-Homework #6
+Homework #7
 ---
-## BubbleSort, InsertionSort, ShellSort
+## SelectionSort, HeapSort
 
 1. **[Junior](junior/README.md)**
 2. **[Middle](middle/README.md)**
