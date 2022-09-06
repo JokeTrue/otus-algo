@@ -2,7 +2,7 @@ package sort
 
 import "otus-algo/pkg/utils"
 
-func BubbleSort(array []int) {
+func BubbleSort(array []int) []int {
 	for i := 1; i < len(array); i++ {
 		for j := 0; j < len(array)-i; j++ {
 			if array[j] > array[j+1] {
@@ -10,4 +10,6 @@ func BubbleSort(array []int) {
 			}
 		}
 	}
+
+	return array
 }

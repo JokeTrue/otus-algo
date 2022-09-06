@@ -10,3 +10,4 @@
 5. **[Homework #5](hw05/README.md)**
 6. **[Homework #6](hw06/README.md)**
 7. **[Homework #7](hw07/README.md)**
+8. **[Homework #8](hw08/README.md)**

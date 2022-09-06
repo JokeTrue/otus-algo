@@ -2,7 +2,7 @@ package sort
 
 import "otus-algo/pkg/utils"
 
-func HeapSort(array []int) {
+func HeapSort(array []int) []int {
 	for root := len(array)/2 - 1; root >= 0; root-- {
 		heapify(array, root, len(array))
 	}
@@ -11,6 +11,8 @@ func HeapSort(array []int) {
 		utils.Swap(array, 0, i)
 		heapify(array, 0, i)
 	}
+
+	return array
 }
 
 func heapify(array []int, root int, size int) {

@@ -13,7 +13,7 @@ func TestSort(name string, sortFn SortFn[int]) {
 		start := time.Now()
 
 		array := utils.GenerateRandomSample(size)
-		sortFn(array)
+		array = sortFn(array)
 
 		elapsed := time.Now().Sub(start).Seconds()
 		fmt.Printf("%s sorted array with %d elements, ellapsed %f seconds\n", name, size, elapsed)
