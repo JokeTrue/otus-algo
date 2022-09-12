@@ -13,5 +13,11 @@ func Swap[T any](array []T, i int, j int) {
 
 func GenerateRandomSample(size int) []int {
 	rand.Seed(time.Now().Unix())
-	return rand.Perm(size)
+
+	sample := make([]int, 0, size)
+	for i := 0; i < size; i++ {
+		sample = append(sample, rand.Intn(999))
+	}
+
+	return sample
 }
